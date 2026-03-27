@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdou Bira - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="navbar">
+        <div class="logo">FallPc </div>
+        <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero section-hidden">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Abdou Bira">Fall Pensee computationnelle</h1>
+            <h2 class="gradient-text">Développeur & Programmeur</h2>
+            <p>Bienvenue sur mon portfolio. Je crée des expériences numériques modernes, performantes et esthétiques.
+            </p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <a href="#projects" class="btn">Voir mes projets <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="profile.jpg" alt="Abdou Bira Profil">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section-hidden">
+        <h2 class="section-title">À <span class="gradient-text">Propos</span></h2>
+        <div class="about-content glass-card">
+            <div class="about-text">
+                <p>Passionné par la technologie et le design, je m'efforce de concevoir des interfaces utilisateurs
+                    exceptionnelles et des architectures robustes.</p>
+                <ul class="skills">
+                    <li>HTML/CSS/JS/PHP</li>
+                    <li>Python & C/C++/C# & Java</li>
+                    <li>Laravel & Angular</li>
+                    <li>Unity & Java Fx</li>
+                    <li>Figma & Photoshop</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-hidden">
+        <h2 class="section-title">Mes <span class="gradient-text">Projets</span></h2>
+        <div class="project-grid">
+            <div class="project-card glass-card">
+                <div class="project-img-placeholder">Projet 1</div>
+                <div class="project-info">
+                    <h3>Application Web E-commerce</h3>
+                    <p>Une plateforme complète avec panier, paiement sécurisé et tableau de bord administrateur.</p>
+                    <a href="#" class="btn-small">Découvrir</a>
+                </div>
+            </div>
+            <div class="project-card glass-card">
+                <div class="project-img-placeholder">Projet 2</div>
+                <div class="project-info">
+                    <h3>Gestion Ecoliere</h3>
+                    <p>Une application de gestion scolaire pour les écoles.</p>
+                    <a href="#" class="btn-small">Découvrir</a>
+                </div>
+            </div>
+            <div class="project-card glass-card">
+                <div class="project-img-placeholder">Projet 3</div>
+                <div class="project-info">
+                    <h3>Fitness en Ligne </h3>
+                    <p>Une app cross-platform pour faire du sport et echanger avec des coachs sportifs.</p>
+                    <a href="#" class="btn-small">Découvrir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-hidden">
+        <h2 class="section-title">Me <span class="gradient-text">Contacter</span></h2>
+        <div class="contact-container glass-card">
+            <form class="contact-form">
+                <input type="text" placeholder="Votre Nom" required>
+                <input type="email" placeholder="Votre Email" required>
+                <textarea placeholder="Votre Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 FallPc. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
